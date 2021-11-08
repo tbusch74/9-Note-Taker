@@ -29,7 +29,8 @@ const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
     headers: {
-      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
     },
   });
 
@@ -69,7 +70,7 @@ const renderActiveNote = () => {
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
-    text: noteText.value,
+    text: noteText.value
   };
   saveNote(newNote).then(() => {
     getAndRenderNotes();
