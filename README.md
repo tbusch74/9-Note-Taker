@@ -21,7 +21,7 @@
 
   This application allows the user to input a note title and description shown below. This will then be saved for future reference. Click on each individual notes to see the note details.
   
-  ![Note-Taker Screenshot](src/screenshot.JPG)
+  ![Note-Taker Screenshot](public/assets/images/screenshot.JPG)
 
   
   ## License
